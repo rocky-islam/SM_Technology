@@ -948,6 +948,9 @@ body {
     justify-content: center;
     margin-top: 10px;
   }
+  .quick-link{
+    text-align: center;
+  }
 
   .slider-track {
     gap: 10px;
