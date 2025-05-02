@@ -944,6 +944,9 @@ body {
   .banner-left,
   .banner-right {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
   }
 
   .slider-track {
@@ -961,6 +964,14 @@ body {
 
   .client-sm-card {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .card-container,
+  .social-card{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav-right{
+    display: none;
   }
 }
 
